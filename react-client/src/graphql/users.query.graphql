@@ -1,0 +1,10 @@
+query GetUsers {
+  users {
+    id
+    name
+    messages {
+      id
+      body
+    }
+  }
+}
